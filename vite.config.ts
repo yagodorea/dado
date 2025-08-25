@@ -30,5 +30,6 @@ export default defineConfig(({ mode }) => {
   // Default development configuration
   return {
     plugins: [react()],
+    base: process.env.NODE_ENV === 'production' ? '/dado/' : '/',
   }
 })
