@@ -1,0 +1,36 @@
+{
+  "name": "dado",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A 3D D20 dice roller with physics simulation",
+  "keywords": ["dice", "d20", "3d", "three.js", "physics", "game", "react"],
+  "author": "Yago Dórea <yago.dorea@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:lib": "vite build --mode library",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.11",
+    "@types/react-dom": "^19.1.7",
+    "@types/three": "^0.179.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2"
+  }
+}
